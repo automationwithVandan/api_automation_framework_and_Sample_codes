@@ -3,10 +3,12 @@ package mock_server_api_with_pojo;
 import io.restassured.path.json.JsonPath;
 import resources.Multi_Layer_JSON_Data;
 
+
 public class Multi_Layer_JSON_Static_Handler_Without_POJO {
 
 	public static void main(String[] args) {
-			
+
+		 
 		String data= Multi_Layer_JSON_Data.json_Data_Multi_Layer();
 		//System.out.println(data);
 		
