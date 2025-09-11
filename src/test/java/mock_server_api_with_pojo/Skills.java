@@ -1,6 +1,6 @@
 package mock_server_api_with_pojo;
 
-import java.util.List;
+
 
 public class Skills {
 
