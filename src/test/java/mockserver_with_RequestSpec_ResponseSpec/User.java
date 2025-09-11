@@ -1,11 +1,16 @@
 package mockserver_with_RequestSpec_ResponseSpec;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class User
 {
 	String id;
 	String name;
 	String email;
+
+	@JsonProperty("isActive")
 	boolean isActive;
+
 	String createdAt;
 	Address address;
 	public String getId() {
